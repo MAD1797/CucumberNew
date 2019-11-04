@@ -1,3 +1,4 @@
+@ForJenkins
 Feature: Login
 Login to the TestMeApp in a browser
 

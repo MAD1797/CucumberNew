@@ -12,7 +12,8 @@ import io.cucumber.junit.CucumberOptions;
 		features="Feature//Login.feature",
 		glue= {"stepDefinition"},
 		monochrome=true,
-		plugin={"pretty","html:test-output"}
+		plugin={"pretty","html:test-output",},
+		tags= {"@ForJenkins"}
 				
 		)
 
